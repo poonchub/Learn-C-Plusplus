@@ -1,0 +1,5 @@
+g++ --version
+
+Run Code
+    g++ main.cpp -o main
+    ./main
