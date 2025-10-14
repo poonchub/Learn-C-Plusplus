@@ -1,7 +1,7 @@
 #include "Car.h"
 #include <iostream>
 
-Car::Car(const string& brand, int year)
+Car::Car(string brand, int year)
     : brand(brand), year(year) {}
 
 Car::~Car(){
@@ -14,4 +14,16 @@ void Car::start(){
 
 void Car::show(){
     cout << brand << " - " << year << endl;
+}
+
+void Car::test(){
+    cout << "Test Car!!" << endl;
+}
+
+void Car::setYear(int y){
+    year = y;
+}
+
+int Car::getYear() {
+    return year;
 }

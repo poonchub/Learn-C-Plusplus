@@ -6,6 +6,7 @@
 #include <string_manipulation.h>
 #include <STL.h>
 #include <dynamic_memory_allocation.h>
+#include <OOP.h>
 
 using namespace std;
 
@@ -17,7 +18,8 @@ int main() {
     // array();
     // stringManipulation();
     // STL();
-    dynamicMemoryAllocation();
+    // dynamicMemoryAllocation();
+    OOP();
 
     return 0;
 }
