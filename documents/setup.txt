@@ -3,3 +3,6 @@ g++ --version
 Run Code
     g++ main.cpp -o main
     ./main
+
+    g++ main.cpp class/*.cpp  utils/*.cpp -I../include -o application
+    ./application
